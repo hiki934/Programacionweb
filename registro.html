@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+<center>
+    <h3>Registro de Usuario</h3>
+<form method=post acction="form00.html">
+<table border=0>
+    <tr><td>Nombre</td>
+    <td><input type=text name="nombre"></td>
+    </tr><br>
+    <tr><td><br>Apellidos</td>
+    <td><input type =text name="apellido"></td>
+    </tr><br>
+    <tr><td>Genero</td>
+        <td><br>Hombre:
+    <input type=radio name="genero" value ="m"><br>
+    <br>Mujer:
+    <input type=radio name="genero" value ="f"></td> </tr>
+        <tr><td><br>Edad</td>
+    <br><td><input name="edad" type="number" min="0"></td> </tr>
+    <tr><td><br>Ocupacion</td> <td>
+    <select name="ocupacion">
+    <option value="1">Trabajador</option>
+    <option value="2">Estudiante</option>
+    <option value="3">Jubilado</option>
+    <option value="otro">Otros</option>
+    </select>
+    </td> </tr> <tr>
+    <td><br>Comentarios</td>
+    <td><br><textarea rows="3" name="comentarios"> Escriba aqui sus comentarios</textarea>
+    </td> </tr> <tr>
+    <td colspan=2>
+            <br><input type="submit" value ="Enviar">
+    </td> </tr>
+</center>
+</table>
+</form>
+</body>
+</html>
